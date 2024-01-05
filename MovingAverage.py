@@ -13,9 +13,6 @@ from collections import deque
 import DataScraper
 
 # replace the "demo" apikey below with your own key from https://www.alphavantage.co/support/#api-key
-alphavantage_api_key = 'UM613F6ZRVT3HDS4'
-polygon_api_key = "R3rQLCdzRDXokfSUfRCrNKq9trfpfTeI"
-
 
 # formula for exponential moving average
 def exponentialMA(ema_queue, price, previous_ema):
